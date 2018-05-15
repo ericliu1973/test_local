@@ -1,3 +1,4 @@
+#author Eric
 #_*_coding:utf-8_*_
 #第一部分：sql解析
 def sql_parse(sql): #insert delete update select
