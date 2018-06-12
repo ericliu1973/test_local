@@ -8,6 +8,7 @@ def sql_parse(sql):
     :param sql:用户输入的字符串
     :return: 返回字典格式sql解析结果
     '''''
+    print ('Messi is the best player in the world !')
     parse_func={
         'insert':insert_parse,
         'delete':delete_parse,
