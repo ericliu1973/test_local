@@ -17,6 +17,7 @@ def sql_parse(sql): #insert delete update select
     }
     # print('sql str is %s' %sql)
     sql_l=sql.split(' ')
+	print ('lalala')
     func=sql_l[0]
     res=''
     if func in parse_func:

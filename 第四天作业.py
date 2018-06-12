@@ -1,5 +1,6 @@
 #_*_coding:utf-8_*_
 #第一部分:sql解析
+#who is the king ?
 import os
 def sql_parse(sql):
     '''
@@ -20,6 +21,7 @@ def sql_parse(sql):
     res=''
     if func in parse_func:
         res=parse_func[func](sql_l)
+		ww = 12
     return res
 
 def insert_parse(sql_l):
